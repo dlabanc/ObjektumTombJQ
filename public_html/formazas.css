@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    background-color: #666666;
+}
+
+main {
+    max-width: 800px;
+    color: white;
+    margin: auto;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+article {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section img {
+    width:100%;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.kepTarolo {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:5px;
+    margin:5px;
+
+    
+}
+
+.kepTaroloAktiv {
+    background: lightgrey;
+    
+}
+
+#galeria {
+    grid-gap:10px;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    align-items: center;
+}
+
+.nagykep {
+    text-align:center;
+
+}
+
+#balra {
+    
+}
+
+h2, p {
+    text-align: center;
+    position: relative;
+    top:-100px;
+    
+}
+
+h2 {
+    color:black;
+    background-color: white;
+    opacity:70%;
+}
+
+
